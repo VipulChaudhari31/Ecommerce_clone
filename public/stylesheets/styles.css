@@ -1,0 +1,31 @@
+*{margin:0px;
+padding:0;
+text-decoration: none;}
+header{background-color: #000000e6;
+    display: flex;
+    flex-direction: row;
+    height:60px;
+       }
+#im1{height:60px;}
+#im2{margin-left: 35px;
+    height: 47px;
+    width: 52px;
+    margin-top: 13px;}
+#loc{
+    color: white;
+    margin-top: 25px;
+    font-family: cursive;
+    text-decoration: solid;
+}
+#all{background-color: #fff9c4;
+    margin-left: 29px;
+    margin-bottom: 14px;
+    margin-top: 9px;
+    border: 0px solid;
+    border-radius: 4px;
+    width: 42px;
+    height: 41px;
+    text-align: center;}
+#choose{margin-top: 9px;
+    height: 37px;
+    width: 347px;}
