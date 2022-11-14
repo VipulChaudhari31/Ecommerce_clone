@@ -10,7 +10,7 @@ header{background-color: #000000e6;
 #im2{margin-left: 35px;
     height: 47px;
     width: 52px;
-    margin-top: 13px;}
+    margin-top: 7px;}
 #loc{
     color: white;
     margin-top: 25px;
@@ -18,7 +18,7 @@ header{background-color: #000000e6;
     text-decoration: solid;
 }
 #all{background-color: #fff9c4;
-    margin-left: 29px;
+    margin-left: 100px;
     margin-bottom: 14px;
     margin-top: 9px;
     border: 0px solid;
@@ -28,4 +28,84 @@ header{background-color: #000000e6;
     text-align: center;}
 #choose{margin-top: 9px;
     height: 37px;
-    width: 347px;}
+    width: 552px;}
+#search{margin-top: 9px;
+    height: 41px;}
+#select{
+    display:flex;
+    flex-direction: column;
+    margin-left:34px;
+}
+#country{
+    background-color: white;
+    margin-left: 16px;
+    width: 194px;
+    margin-top: 13px;
+    display: flex;
+    border: 2px solid;
+    border-radius: 12px;
+    height: 33px;
+}
+li{border: 1px solid;
+    border-radius: 8px;
+    background-color: floralwhite;
+    opacity: 0.9;}
+#india{
+    width: 26px;
+    height: 16px;
+    margin-left: 6px;
+    margin-top: 1px;
+    margin-right: 7px;
+}
+#newj{width:107px;}
+
+
+.list{list-style: none;
+    margin-top: 22px;
+    margin-left: 24px;
+    cursor:pointer;}
+.like{display:none;
+      cursor:pointer;}
+.luke{display:none;
+        cursor:pointer;}
+.ind{cursor:pointer;}
+p{margin-left: 10px;
+    font-size: 16px;
+    font-family: cursive;}
+#down{height: 22px;
+    width: 21px;
+    margin-left: 60px;}
+#nav p{
+      margin-left:34px;
+    height: 38px;
+    width:167px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #63990d;
+    color: white;
+    }
+.nav{background-color: blue;
+}
+#arrow{
+    margin-top:215px;
+    height: 68px;
+    margin-right:1340px;
+    cursor:pointer;
+    opacity: 0.9;
+}
+#arrow2{
+    height: 68px;
+    cursor:pointer;
+    opacity: 0.9;
+}
+.im1{
+    background-image: url("/public/images/uk.jpg");
+    height:500px;
+}
+.im2{
+    background-image: url("/public/images/france.jpg");
+    height:377px;
+    display: hidden;
+}
